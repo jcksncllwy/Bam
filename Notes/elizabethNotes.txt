@@ -1,0 +1,7 @@
+- displaying images from from local storage
+- customizable margin padding
+   --> optional canvas border restrictions (will stop widgets from going past borders)
+
+
+-layers   vs   locking widgets in place
+
