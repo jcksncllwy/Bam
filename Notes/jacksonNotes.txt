@@ -1,0 +1,7 @@
+notes for Bam
+
+Features
+	- Code gen
+	- double-click on blank space to open search field for widgets like MaxMSP, arrow key navigation of search results
+		- reduces mouse-movement to and from widget menu
+	
