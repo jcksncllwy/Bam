@@ -4,4 +4,18 @@ Features
 	- Code gen
 	- double-click on blank space to open search field for widgets like MaxMSP, arrow key navigation of search results
 		- reduces mouse-movement to and from widget menu
-	
+	- widget builder (aka Masters)
+		- compose named reusable widget out of other widgets and components
+		- store custom widgets locally
+	- Content-editable widgets, no need to use separate text box input
+	- Control panels for each widget?
+	- Interactive elements, states
+		- Each element has: Named attributes, Views
+			- Named attributes dictate color, fonts, presentation styles, all that.
+			- Some attributes inherent to element, more custom ones can be added
+			- Views represent a saved state of an elements attributes, a particular instance of the element
+		- Interactions composed of condition + action
+			- If this, then that.
+			- If(button1.pressed == true) then (dialog1.alpha : "100%")
+	- Record use cases, work flows, sets of states
+	- notes! let users add annotations to the wireframe
