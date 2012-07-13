@@ -1,0 +1,47 @@
+wireframe elements
+-buttons
+-text box
+-window
+-image template
+-color palette
+-user profile
+-keyboard short-cuts (CRTL-Z.. etc)
+-grouping
+-resizing
+-html interface (ie: check box, listing)
+-font editor (size, style)
+-scroll bars
+
+WireFrame for the web
+	Bam is a free online wireframe tool which allows users to
+	-build their site visually
+	-generates HTML5 code "behind the scene" which users can download and actually use
+	-offers easy-to-use tools
+
+Features
+	-widget builder
+	-keyboard short-cuts
+		CTRL-Z: undo
+		CTRL-A: select all
+	-grouping
+	-HTML interface
+	-content editable widgets
+	-style agnostic design
+
+Audience
+	-users are assumed to be beginners and web developing. Not know HTML well, don't know how to create website
+
+Schedule
+	timeline
+	-canvas: simple drag and drop interface with basic elements (box & text)
+	-expand library of elements, research what elements are most useful & build them
+	-utilities (copy, paste, grouping elements, undo, redo, saving, exporting, searching elements)
+	-element builder
+	-interactive
+	
+Concerns
+	timing limitations
+	-able to at least finish utilities. others added on after
+	
+	other limitations
+	-KISS: not caught up in the look 

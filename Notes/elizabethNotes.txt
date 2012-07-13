@@ -1,7 +1,34 @@
 - displaying images from from local storage
 - customizable margin padding
-   --> optional canvas border restrictions (will stop widgets from going past borders)
+   --> optional canvas border restrictions (will stop elements from going past borders)
 
-
+- "always on top" option for elements
 -layers   vs   locking widgets in place
+-tabs through all the different pages of this website  
+(alt. a preview window of all the pages stored under this project)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+PURPOSE OF THIS TOOL:
+user a wireframe tool to not only depict their ideas on a canvas, but to also simulate the 
+most basic functionalities certain parts of their application should perform
+ (ie. a button press should cause an alert box to appear). 
+This wireframe tool may also be useful for those who simply want to format the layout of a form/document
+
+
+
+TARGET USERS:
+user experience (UX)
+graphic designers
+front end web programmers
