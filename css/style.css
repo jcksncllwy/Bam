@@ -5,21 +5,68 @@
 
 body{
 	font-family: "Cabin","Trebuchet MS", Arial, sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	background: url("../images/tiny_grid.png") repeat;
-	padding: 20px;
+}
+
+#top_nav_wrap{
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	background: rgba(15,81,147,0.5);
+}
+
+#top_nav{
+	width: 80%;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#top_nav .nav_item{
+	float: left;
+	display: block;
+	width: 20%;
+	height: 40px;
+	padding: 15px 0;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+#top_nav .nav_item.active{
+	background: rgba(44,129,214,1);
+}
+
+#top_nav .nav_item:hover{
+	background: rgba(44,129,214,0.5);
+}
+
+#top_nav:after{
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+#content{
+	width: 80%;
+	margin:0 auto;
+	padding-top: 90px;
 }
 
 .left_ribbon{
-	margin-left: -20px;
+	margin-left: -12.55%;
+	padding-left: 12.55%;
 	margin-bottom: 10px;
 	background-color: #bace16;
 	float: left;
 }
 
 .left_ribbon > *{
-	margin-left: 20px;
-	margin-right: 10px;
+	padding-right: 10px;
 }
 
 .left_ribbon + *{
