@@ -1,0 +1,13 @@
+wireframe elements
+-buttons
+-text box
+-window
+-image template
+-color palette
+-user profile
+-keyboard short-cuts (CRTL-Z.. etc)
+-grouping
+-resizing
+-html interface (ie: check box, listing)
+-font editor (size, style)
+-scroll bars
