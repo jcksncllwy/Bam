@@ -7,38 +7,33 @@ body{
 	font-family: "Cabin","Trebuchet MS", Arial, sans-serif;
 	font-size: 14px;
 	background: url("../images/tiny_grid.png") repeat;
+	padding: 20px;
 }
 
-body > *{
-	padding: 0 20px;
+.left_ribbon{
+	margin-left: -20px;
+	margin-bottom: 10px;
+	background-color: #bace16;
+	float: left;
 }
 
-header{
-	padding-left: 0;
-	padding-top: 20px;
-}
-
-header span{
+.left_ribbon > *{
 	margin-left: 20px;
 	margin-right: 10px;
 }
 
-header > *{
-	margin-bottom: 10px;
+.left_ribbon + *{
+   clear: both;
 }
 
-h1.logo{
+h1{
 	font-family: 'Lobster', cursive;
 	font-size: 56px;
-	background-color: #bace16;
-	float: left;
 }
 
 h2{
 	font-family: 'Lobster', cursive;
 	font-size: 28px;
-	background-color: #bace16;
-	float: left;
 }
 
 section{
