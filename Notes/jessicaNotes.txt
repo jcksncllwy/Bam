@@ -26,12 +26,22 @@ Features
 	-grouping
 	-HTML interface
 	-content editable widgets
+	-style agnostic design
 
 Audience
 	-users are assumed to be beginners and web developing. Not know HTML well, don't know how to create website
 
 Schedule
-	-END of week 3: have wireframe template done
-		-know where everything goes, CSS done, widget locations, skeleton of site
-	-END of week 4:
-	-END of week 5: everything implemented
+	timeline
+	-canvas: simple drag and drop interface with basic elements (box & text)
+	-expand library of elements, research what elements are most useful & build them
+	-utilities (copy, paste, grouping elements, undo, redo, saving, exporting, searching elements)
+	-element builder
+	-interactive
+	
+Concerns
+	timing limitations
+	-able to at least finish utilities. others added on after
+	
+	other limitations
+	-KISS: not caught up in the look 
