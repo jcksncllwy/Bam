@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Cabin","Trebuchet MS", Arial, sans-serif;
+	font-size: 14px;
+	background: url("../images/tiny_grid.png") repeat;
+}
+
+body > *{
+	padding: 0 20px;
+}
+
+header{
+	padding-left: 0;
+	padding-top: 20px;
+}
+
+header span{
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+header > *{
+	margin-bottom: 10px;
+}
+
+h1.logo{
+	font-family: 'Lobster', cursive;
+	font-size: 56px;
+	background-color: #bace16;
+	float: left;
+}
+
+h2{
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+	background-color: #bace16;
+	float: left;
+}
+
+section{
+	clear: both;
+	margin-top: 10px;
+}
+
+span.team_name{
+	font-family: 'Press Start 2P', sans-serif;
+	color: #bace16;
+}
