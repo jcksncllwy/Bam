@@ -1,0 +1,53 @@
+Basic elements
+	•	Buttons 
+	•	Text boxes
+	•	Resizing boxes
+	•	Canvas
+	•	Images
+	•	Library(menu bar)
+	•	Color pallet
+	•	In multiple text boxes instead of opening a text box windows to edit
+	•	Directly make changes to the box
+	•	Add new boxes to both top and bottom row
+	•	Delete boxes 
+	•	Instead of going back and forth to the menu
+	•	Add a small window that allows a small screen of elements to pop up
+Future
+	•	Interactive	
+	•	Move elements around
+	•	Give the user templates instead of an empty canvas
+	
+
+
+What makes our wireframe different from others?
+	•	Since it is in HTML5 then we can re-use the code to make it into a website. Instead of viewing what your webpage would look like, it would actually implement a webpage.
+You must define the Wireframe tool that you think you could build in this class (be cautious)
+
+You should discuss the general reason the tool exists.
+
+You should discuss the people it is built for (users – remember them?)
+
+You should discuss what you think they (the users) would use the tool for and why
+
+	•	user can this tool to create a layout of a webpage
+	•	user can also add some animations in order to demonstrate how the actual webpage should be developed
+	•	
+
+You should discuss the features of the tool
+	- See List
+
+
+You should present a picture (or even a Web page) that visually describes the tool
+	- To Be Done
+
+
+You should discuss any worries, concerns, limitations, etc. that you have about the tool and its production
+	•	time 
+	•	only limited to 5 weeks.
+	•	Concern to not have much animation
+	•	Worried that we will be doing the programmers part
+	•	Not too detailed
+	•	Worried we will take from the graphic designer job
+
+
+
