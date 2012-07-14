@@ -89,6 +89,16 @@ body{
    clear: both;
 }
 
+.table_cell{
+	width: 20%;
+	padding-right: 15px;
+	vertical-align: text-top;
+	padding-top: 20px;
+}
+
+#content > header:first-of-type{
+	margin-bottom: -70px;
+}
 h1{
 	font-family: 'Lobster', cursive;
 	font-size: 56px;
