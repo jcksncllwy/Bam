@@ -89,10 +89,6 @@ body{
    clear: both;
 }
 
-#content > header:first-of-type{
-	margin-bottom: -70px;
-}
-
 h1{
 	font-family: 'Lobster', cursive;
 	font-size: 56px;
@@ -109,7 +105,7 @@ section{
 	min-height: 600px;
 }
 
-section:before{
+.a_target:before{
 	display: block; 
 	content: " "; 
 	margin-top: -80px; 
