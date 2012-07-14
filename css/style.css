@@ -133,9 +133,22 @@ span.team_name{
 .colgroup > *{
 	display: block;
 	float: left;
+	margin-left: 1%;
+}
+
+.colgroup>:first-child{
+	margin: 0;
+}
+
+.colgroup.col2 > *{
+	width: 49%; /* account for margins */
 }
 
 .colgroup.col3 > *{
-	width: 33.3%
+	width: 31.3%
+}
+
+.colgroup.col6 > *{
+	width: 11.6%;
 }
 
