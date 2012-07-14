@@ -99,7 +99,7 @@ h2{
 	font-size: 28px;
 }
 
-section{
+#content > section{
 	clear: both;
 	margin-top: 10px;
 	min-height: 600px;
@@ -117,3 +117,25 @@ span.team_name{
 	font-family: 'Press Start 2P', sans-serif;
 	color: #bace16;
 }
+
+.colgroup{
+	margin-bottom: 10px;
+}
+
+.colgroup:after{
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+.colgroup > *{
+	display: block;
+	float: left;
+}
+
+.colgroup.col3 > *{
+	width: 33.3%
+}
+
