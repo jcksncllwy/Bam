@@ -21,7 +21,7 @@ Future
 
 What makes our wireframe different from others?
 	•	Since it is in HTML5 then we can re-use the code to make it into a website. Instead of viewing what your webpage would look like, it would actually implement a webpage.
-You must define the Wireframe tool that you think you could build in this class be cautious
+You must define the Wireframe tool that you think you could build in this class (be cautious)
 
 You should discuss the general reason the tool exists.
 
