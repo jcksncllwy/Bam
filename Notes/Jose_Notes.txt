@@ -1,3 +1,18 @@
+Bio:
+
+Taking this class will benefit me because i will be ale to apply the knowledge i gain in the class not only in future web development classes but as well as in future careers. I find this class interesting because in client-side Web, we focus and have to think like users in order to develop a web application that the users will use and like. In these 5 weeks i hope to expand my knowledge of HTML, javascript, and css. I also look forward to working in a industry and team enviroment. More importantly i look forward in producing. along with my teammates, a functional and unique wireframe tool by the end of this summer session.  
+
+
+
+
+
+
+
+
+
+
+
+
 Basic elements
 	•	Buttons 
 	•	Text boxes
