@@ -26,6 +26,8 @@ You must define the Wireframe tool that you think you could build in this class 
 You should discuss the general reason the tool exists.
 
 You should discuss the people it is built for (users – remember them?)
+	web devleoper 
+	web designers
 
 You should discuss what you think they (the users) would use the tool for and why
 
