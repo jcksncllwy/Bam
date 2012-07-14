@@ -1,5 +1,8 @@
 notes for Bam
 
+Bio
+	Web development is totes awesome. It's a shame UCSD only has one client-side class and it's onlly available in the summer. Web dev feels more creative and human than most other CS disciplines. I'd really rather not be locked away in a lab or office all day working on DBA or embedded systems. In web dev, being anti-social and close-minded is not an option -- the rules are always changing and there's always something new to learn. I can't wait to graduate so I can dedicate myself full-time to studying and advancing the web.
+
 Features
 	- Code gen
 	- double-click on blank space to open search field for widgets like MaxMSP, arrow key navigation of search results
