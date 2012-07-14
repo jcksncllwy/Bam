@@ -136,6 +136,10 @@ span.team_name{
 	margin-left: 1%;
 }
 
+.colgroup > section > header{
+	text-align: center;
+}
+
 .colgroup>:first-child{
 	margin: 0;
 }
