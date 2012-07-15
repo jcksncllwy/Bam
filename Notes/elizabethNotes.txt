@@ -1,3 +1,10 @@
+Currently a 4th year at UCSD with a double major in Computer Science and Economics. What I hope to get out of this class: an A would be nice. It's also good to learn some HTML/CSS/javascript, stuff we see every day but know nothing about. Finding a class that teaches these scripting/style langugages is rare at UCSD; all the more reason to take the class when you know it's being taught by someone who knows their stuff.
+
+
+
+
+
+
 - displaying images from from local storage
 - customizable margin padding
    --> optional canvas border restrictions (will stop elements from going past borders)
