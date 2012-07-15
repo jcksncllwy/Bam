@@ -10,23 +10,8 @@ body{
 	background: url("../images/tiny_grid.png") repeat;
 }
 
-.rotate {
-
-/* Safari */
--webkit-transform: rotate(-90deg);
-
-/* Firefox */
--moz-transform: rotate(-90deg);
-
-/* IE */
--ms-transform: rotate(-90deg);
-
-/* Opera */
--o-transform: rotate(-90deg);
-
-/* Internet Explorer */
-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
+img{
+	max-width: 100%;
 }
 
 #top_nav_wrap{
@@ -45,7 +30,6 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 	height: 70px;
 	margin: 0 auto;
 	padding: 0;
-	
 }
 
 #top_nav .nav_item{
@@ -89,9 +73,36 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 #content{
-	width: 80%;
-	margin:0 auto;
 	padding-top: 90px;
+}
+
+#banner{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#banner .left_ribbon{
+	margin-bottom: 0;
+}
+
+#banner:after{
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+#content>section{
+	min-height: 700px;
+	width: 80%;
+	margin:10px auto 0 auto;
+}
+
+#content>div>section{
+	min-height: 700px;
+	width: 80%;
+	margin:10px auto 0 auto;
 }
 
 .left_ribbon{
@@ -126,12 +137,6 @@ h2{
 	font-family: 'Lobster', cursive;
 	font-size: 28px;
 }
-
-#content > section{
-	margin-top: 10px;
-	min-height: 600px;
-}
-
 .a_target:before{
 	display: block; 
 	content: " "; 
@@ -183,35 +188,53 @@ span.team_name{
 	width: 15.8%;
 }
 
-#about figure{
-	width: 210px;
-	float: left;
-	text-align: center;
-	background: white;
-	border: 5px solid black;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+.strip_background.space{
+	background: url("../images/space.png") repeat;
+	-webkit-box-shadow: 0 0 10px 10px black;
+	   -moz-box-shadow: 0 0 10px 10px black;
+	        box-shadow: 0 0 10px 10px black;
+	overflow: hidden;
 }
 
-#about img{
-	margin-top: 5px;
-	border: 2px solid black;
+#about header{
+	margin-bottom: 20px;
+}
+
+#about figure{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+
+#about img.portrait{
+	width: 100%;
 }
 
 #about figcaption{
-	margin: 2px 0;
-}
-
-#about .container{
 	float: left;
-	margin: 10px 0 0 10px;
+	margin: 0 0 0 10px;
+	width: 60%;
 }
 
 #about section header{
 	text-align: left;
-	font: 10px 'Press Start 2P', sans-serif;
+	font: 14px 'Press Start 2P', sans-serif;
 	color: #bace16;
 	margin-bottom: 5px;
 }
 
+#about section p{
+	text-align: left;
+	font: 10px 'Press Start 2P', sans-serif;
+	color: #bace16;
+	line-height: 12px;
+}
+
+#blinking_cursor{
+	width: 8px;
+}
+
+#about .colgroup{
+	margin: 100px 0;
+}
 
