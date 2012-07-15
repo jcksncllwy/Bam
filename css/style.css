@@ -128,12 +128,6 @@ img{
 	padding-top: 20px;
 }
 
-.image{
-	height: 350px;
-	padding-top: 25px;
-	padding-right:20px;
-}
-
 h1{
 	font-family: 'Lobster', cursive;
 	font-size: 56px;
@@ -194,6 +188,13 @@ span.team_name{
 	width: 15.8%;
 }
 
+#intro img{
+	width: 45%; 
+	margin:0px auto;
+	display:block;
+	padding-top:30px;
+}
+
 .strip_background.space{
 	background: url("../images/space.png") repeat;
 	-webkit-box-shadow: 0 0 10px 10px black;
@@ -233,7 +234,7 @@ span.team_name{
 	text-align: left;
 	font: 10px 'Press Start 2P', sans-serif;
 	color: #bace16;
-	line-height: 12px;
+	line-height: 14px;
 }
 
 #blinking_cursor{

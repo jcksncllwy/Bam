@@ -25,20 +25,35 @@ Element.prototype.toggleClass = function(className){
 
 window.onload = function() {
 	var top_nav_items = document.getElementById('top_nav').getElementsByClassName('nav_item');
+	var active_nav_item = top_nav_items[0];
 	console.log(top_nav_items);
 	for(var i=0; i<top_nav_items.length; i++){
 		top_nav_items[i].onclick = function(e){
-			for(var j=0; j<top_nav_items.length; j++){
-				if(top_nav_items[j].hasClass('active')){
-					top_nav_items[j].removeClass('active');
-				}
-			}
+			active_nav_item.removeClass('active');
 			if(e.target.hasClass('nav_item')){
 				e.target.addClass('active');
+				active_nav_item = e.target;
 			}
 			else{
 				e.target.parentElement.addClass('active');
+				active_nav_item = e.target.parentElement;
 			}
 		}
 	}
+	
+	var anchors = document.getElementsByClassName('a_target');
+	console.log(anchors);
+	
+	window.onscroll = function(){
+		for(var i = 0; i<anchors.length; i++){
+			var position = anchors[i].getBoundingClientRect();
+			if(position.top <= 90 && position.bottom > 0){
+				active_nav_item.removeClass('active');
+				top_nav_items[i].addClass('active');
+				active_nav_item = top_nav_items[i];
+			}
+		}
+	}
+	
+	
 };
