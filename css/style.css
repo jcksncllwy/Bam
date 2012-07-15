@@ -1,12 +1,32 @@
 *{
 	margin: 0;
 	padding: 0;
+	z-index: 0;
 }
 
 body{
 	font-family: "Cabin","Trebuchet MS", Arial, sans-serif;
 	font-size: 16px;
 	background: url("../images/tiny_grid.png") repeat;
+}
+
+.rotate {
+
+/* Safari */
+-webkit-transform: rotate(-90deg);
+
+/* Firefox */
+-moz-transform: rotate(-90deg);
+
+/* IE */
+-ms-transform: rotate(-90deg);
+
+/* Opera */
+-o-transform: rotate(-90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
 }
 
 #top_nav_wrap{
@@ -17,6 +37,7 @@ body{
 	-webkit-box-shadow: 0 1px 5px 1px black;
 	   -moz-box-shadow: 0 1px 5px 1px black;
 	        box-shadow: 0 1px 5px 1px black;
+	z-index: 1;
 }
 
 #top_nav{
@@ -160,5 +181,40 @@ span.team_name{
 
 .colgroup.col6 > *{
 	width: 15.8%;
+}
+
+#about figure{
+	width: 210px;
+	float: left;
+	text-align: center;
+	background: white;
+	border: 5px solid black;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#about img{
+	margin-top: 5px;
+	border: 2px solid black;
+}
+
+#about figcaption{
+	margin: 2px 0;
+}
+
+#about .container{
+	float: left;
+	margin: 10px 0 0 10px;
+}
+
+#about section header{
+	text-align: left;
+	font: 10px 'Press Start 2P', sans-serif;
+	color: #bace16;
+	margin-bottom: 5px;
+}
+
+#about p{
+	
 }
 
