@@ -146,6 +146,7 @@ h2{
 }
 
 span.team_name{
+	font-size: 18px;
 	font-family: 'Press Start 2P', sans-serif;
 	color: #bace16;
 }
@@ -238,10 +239,17 @@ span.team_name{
 }
 
 #blinking_cursor{
-	width: 8px;
+	width: 16px;
 }
 
 #about .colgroup{
 	margin: 100px 0;
+}
+
+#about footer{
+	text-align: center;
+	font: 14px 'Press Start 2P', sans-serif;
+	color: #bace16;
+	margin-bottom: 100px;
 }
 
