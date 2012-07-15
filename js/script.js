@@ -42,8 +42,15 @@ window.onload = function() {
 		}
 	}
 	
+	var starfox_audio1 = document.getElementById('starfox_sound1');
+	var starfox_audio2 = document.getElementById('starfox_sound2');
+	starfox_audio1.addEventListener('ended', function(){
+		setTimeout(function() {starfox_audio2.play();},100);
+	}, false);
+	starfox_audio1.load();
+	starfox_audio2.load();
+	var sound_played = false;
 	var anchors = document.getElementsByClassName('a_target');
-	console.log(anchors);
 	
 	window.onscroll = function(){
 		for(var i = 0; i<anchors.length; i++){
@@ -52,9 +59,15 @@ window.onload = function() {
 				active_nav_item.removeClass('active');
 				top_nav_items[i].addClass('active');
 				active_nav_item = top_nav_items[i];
+				if(i==(anchors.length-1) && !sound_played){
+					starfox_audio1.play();
+					sound_played = true;
+				}
 			}
 		}
 	}
+	
+	
 	
 	
 };
