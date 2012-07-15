@@ -217,7 +217,7 @@ span.team_name{
 	width: 100%;
 }
 
-#about figcaption{
+#about div.container{
 	float: left;
 	margin: 0 0 0 10px;
 	width: 60%;

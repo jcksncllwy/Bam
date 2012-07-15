@@ -24,6 +24,7 @@ Element.prototype.toggleClass = function(className){
 }
 
 window.onload = function() {
+
 	var top_nav_items = document.getElementById('top_nav').getElementsByClassName('nav_item');
 	var active_nav_item = top_nav_items[0];
 	console.log(top_nav_items);
