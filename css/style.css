@@ -196,6 +196,86 @@ span.team_name{
 	padding-top:30px;
 }
 
+#schedule>:first-child{
+	margin-bottom: 30px;
+}
+
+#timeline{
+	display: block;
+	height: 4px;
+	width: 100%;
+	background: #1C71C6;
+	margin-bottom: 35px;
+}
+
+#timeline:before{
+	content: "";
+	display: block;
+	position: relative;
+	top: -8px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #4CA1F6;
+	border-bottom: 10px solid transparent;
+}
+
+#timeline:after{
+	content: "";
+	display: block;
+	position: relative;
+	top: -30px;
+	margin-left: 100%;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #4CA1F6;
+	border-bottom: 10px solid transparent;
+}
+
+#timeline .colgroup{
+	margin-top: -20px;
+}
+
+#timeline .dot{
+	display: block;
+	height: 20px;
+	width: 20px;
+	background: #4CA1F6;
+	position: relative;
+	margin: -8px auto 0 auto;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#timeline .dot:before{
+	content: "";
+	display: block;
+	height: 10px;
+	width: 10px;
+	background: #1C71C6;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 3;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#timeline .dot:after {
+	content: "";
+	display: block;
+	position: relative;
+	top: 12px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 20px solid #4CA1F6;
+}	
+
 .strip_background.space{
 	background: url("../images/space.png") repeat;
 	-webkit-box-shadow: 0 0 10px 10px black;
