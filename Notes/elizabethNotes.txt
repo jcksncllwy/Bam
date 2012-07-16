@@ -1,3 +1,14 @@
+Information:
+
+1) Navigation bar: alternative to scrolling. By clicking on the sections of this bar, you will be directed to the part of the page where the section you have selected begins.
+2) Navigation bar section: "Who are you guys?". If this section is selected, there will be some short audio clip will be played in the background.
+3) Scrolling into the "Who are you guys?" section: upon reaching this section of the page for the first time, a short audio clip will play once in the background.
+4) Navigation bar follows scrolling: When you scroll into a certain section, the navigation bar will highlight the section you are currently in. 
+
+
+
+
+
 Currently a 4th year at UCSD with a double major in Computer Science and Economics. What I hope to get out of this class: an A would be nice. It's also good to learn some HTML/CSS/javascript, stuff we see every day but know nothing about. Finding a class that teaches these scripting/style langugages is rare at UCSD; all the more reason to take the class when you know it's being taught by someone who knows their stuff.
 
 
