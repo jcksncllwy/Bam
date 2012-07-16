@@ -25,23 +25,6 @@ Element.prototype.toggleClass = function(className){
 
 window.onload = function() {
 
-	var top_nav_items = document.getElementById('top_nav').getElementsByClassName('nav_item');
-	var active_nav_item = top_nav_items[0];
-	console.log(top_nav_items);
-	for(var i=0; i<top_nav_items.length; i++){
-		top_nav_items[i].onclick = function(e){
-			active_nav_item.removeClass('active');
-			if(e.target.hasClass('nav_item')){
-				e.target.addClass('active');
-				active_nav_item = e.target;
-			}
-			else{
-				e.target.parentElement.addClass('active');
-				active_nav_item = e.target.parentElement;
-			}
-		}
-	}
-	
 	var starfox_audio1 = document.getElementById('starfox_sound1');
 	var starfox_audio2 = document.getElementById('starfox_sound2');
 	starfox_audio1.addEventListener('ended', function(){
@@ -49,6 +32,42 @@ window.onload = function() {
 	}, false);
 	starfox_audio1.load();
 	starfox_audio2.load();
+
+	var top_nav_items = document.getElementById('top_nav').getElementsByClassName('nav_item');
+	var active_nav_item = top_nav_items[0];
+	console.log(top_nav_items);
+	var navbar_onclick = function(e){
+		active_nav_item.removeClass('active');
+		if(e.target.hasClass('nav_item')){
+			e.target.addClass('active');
+			active_nav_item = e.target;
+		}
+		else{
+			e.target.parentElement.addClass('active');
+			active_nav_item = e.target.parentElement;
+		}
+	}
+	var navbar_onclick_sound = function(e){
+		active_nav_item.removeClass('active');
+		if(e.target.hasClass('nav_item')){
+			e.target.addClass('active');
+			active_nav_item = e.target;
+		}
+		else{
+			e.target.parentElement.addClass('active');
+			active_nav_item = e.target.parentElement;
+		}
+		starfox_audio1.play();
+	}
+	for(var i=0; i<top_nav_items.length; i++){
+		if(i==(top_nav_items.length-1)){
+			top_nav_items[i].onclick = navbar_onclick_sound;
+		}
+		else{
+			top_nav_items[i].onclick = navbar_onclick;
+			}
+	}
+	
 	var sound_played = false;
 	var anchors = document.getElementsByClassName('a_target');
 	
