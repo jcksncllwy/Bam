@@ -10,6 +10,10 @@ body{
 	background: url("../images/tiny_grid.png") repeat;
 }
 
+li{
+	list-style: none;
+}
+
 img{
 	max-width: 100%;
 }
@@ -320,7 +324,7 @@ span.team_name{
 }
 
 #blinking_cursor{
-	width: 16px;
+	width: 14px;
 }
 
 #about .colgroup{
