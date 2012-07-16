@@ -216,6 +216,7 @@ span.team_name{
 
 #about img.portrait{
 	width: 100%;
+	cursor: pointer;
 }
 
 #about div.container{

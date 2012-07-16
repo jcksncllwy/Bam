@@ -86,6 +86,32 @@ window.onload = function() {
 		}
 	}
 	
+	var fox_audio = document.getElementById('fox_audio');
+	var fox_img = document.getElementById('fox_img');
+	fox_img.onclick = function(e){
+		fox_audio.play();
+	}
+	
+	var peppy_audio = document.getElementById('peppy_audio');
+	var peppy_img = document.getElementById('peppy_img');
+	peppy_img.onclick = function(e){
+		peppy_audio.play();
+	}
+	
+	var falco_audio = document.getElementById('falco_audio');
+	var falco_img = document.getElementById('falco_img');
+	falco_img.onclick = function(e){
+		falco_audio.play();
+	}
+	
+	var slippy_audio = document.getElementById('slippy_audio');
+	var slippy_img = document.getElementById('slippy_img');
+	slippy_img.onclick = function(e){
+		slippy_audio.play();
+	}
+	
+	
+	
 	
 	
 	
