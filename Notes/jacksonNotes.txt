@@ -22,3 +22,21 @@ Features
 			- If(button1.pressed == true) then (dialog1.alpha : "100%")
 	- Record use cases, work flows, sets of states
 	- notes! let users add annotations to the wireframe
+	
+	- short cut overlay while holding shift+tab
+	
+	- associated value domain for every attribute
+	
+Element:
+	Screen Position
+	Size
+	Attributes:
+		Domain of values
+	States:
+		Sets of attribute-value pairs
+	Composition:
+		Element Tree
+		
+	
+	
+	
