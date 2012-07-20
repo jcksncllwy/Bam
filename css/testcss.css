@@ -11,8 +11,10 @@
 }
 
 
+
+
 #canvas{
-height:500px;
+height:800px;
 width:80%;
 margin-top:5%;
 margin-left:10%;
@@ -24,6 +26,53 @@ border-radius:5px;
 -moz-border-radius:5px;
 }
 
+.draglibrary{
+width:230px;
+height:345px;
+background-color:#444444;
+border:.5px solid;
+border-radius:5px;
+-moz-border-radius:5px;
+text-align:center;
+color:#eeeeee;
+
+
+padding-top:5px;
+margin:10px;
+position:absolute;
+right:20px;
+top:400px;
+}
+
+.menu{
+
+left:5px;
+right:5px;
+top:30px;
+background-color:white;
+width:220px;
+height:310px;
+overflow-x:hidden;
+overflow-y:scroll;
+position:absolute;
+}
 
 
 
+.draginteractions{
+width:230px;
+height:345px;
+background-color:#444444;
+border:.5px solid;
+border-radius:5px;
+-moz-border-radius:5px;
+text-align:center;
+color:#eeeeee;
+
+
+padding-top:5px;
+margin:10px;
+position:absolute;
+right:20px;
+top:45px;
+}
