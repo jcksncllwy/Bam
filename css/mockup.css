@@ -1,5 +1,5 @@
 *{
-	margin: 20;
+	margin: 0;
 	padding: 0;
 	z-index: 0;
 	list-style: none;
@@ -16,6 +16,7 @@
 	height: 50px;
 	width: 100%;
 	background-color: #444444;
+	z-index:1;
 }
 
 #menu_wrap .logo{
@@ -28,6 +29,7 @@
 	float: left;
 	height: 50px;
 	margin-right: 20px;
+	margin-top: 12px;
 	font-size: 14pt;
 	text-align:center;
 	color: #bace16;

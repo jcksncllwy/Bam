@@ -16,6 +16,7 @@
 	height: 50px;
 	width: 100%;
 	background-color: #444444;
+	z-index: 1;
 }
 
 #menu_wrap .logo{
