@@ -2,6 +2,7 @@
 	margin: 20;
 	padding: 0;
 	z-index: 0;
+	list-style: none;
  }
 
  body{
@@ -10,16 +11,43 @@
  background: url("../images/tiny_grid.png") repeat;
 }
 
+#menu_wrap{
+	position:fixed;
+	height: 50px;
+	width: 100%;
+	background-color: #444444;
+}
 
+#menu_wrap .logo{
+	float: left;
+	margin-right:10px;
+	
+}
 
+#menu_wrap .item_list > *{
+	float: left;
+	height: 50px;
+	margin-right: 20px;
+	font-size: 14pt;
+	text-align:center;
+	color: #bace16;
+}
+
+#menu_wrap>:last-child:after{
+	content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both; 	
+}
 
 #canvas{
 height:800px;
 width:80%;
-margin-top:5%;
-margin-left:10%;
-margin-right:10%;
+top: 160px;
+margin: 0 auto;
 background-color:white;
+position: relative;
 
 border:3px solid #000;
 border-radius:5px;
@@ -41,7 +69,7 @@ padding-top:5px;
 margin:10px;
 position:absolute;
 right:20px;
-top:400px;
+top:500px;
 }
 
 .menu{
@@ -74,5 +102,5 @@ padding-top:5px;
 margin:10px;
 position:absolute;
 right:20px;
-top:45px;
+top:145px;
 }
