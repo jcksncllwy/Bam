@@ -1,0 +1,7 @@
+@import "utilities";
+
+@mixin glass-border($width, $left:0, $top:0, $blur:5px, $spread:0, $color:black){
+	border: $width solid transparent;
+	@include box-shadow($left, $top, $blur, $spread, $color);
+	@include background-clip(padding-box);
+}

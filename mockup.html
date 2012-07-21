@@ -2,15 +2,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Untitled Document</title>
-<link href='stylesheets/sass_compiled/mockup.css'rel='stylesheet' type='text/css'>
-
-
+	<title>Untitled Document</title>
+	<link href='stylesheets/sass_compiled/mockup.css'rel='stylesheet' type='text/css'>
 </head>
 
-
-
 <body>
+
 <div id="menu_wrap">
 	<header class="logo">
 		<img src="images/logo1.png" height="50" />
@@ -25,31 +22,41 @@
 	<div style="clear:both;"></div>
 </div>
 
-<div id="canvas"></div>
+<div id="workspace">
+	<div id="page"></div>
 
-<div class="draglibrary" ><b>Library </b>
-	<img src="images/close.png" width="20" height="20" align="right">
-	<img src="images/max.png" width="20" height="20" align="right">
-	<img src="images/min.png" width="20" height="20" align="right">
-	
-	<div class="menu">
-	
+	<div id="library" class="window" >
+		<header>
+			<h4 class="title">Library </h4>
+			<ul class="window_actions horizontal">
+				<li><img src="images/min.png" width="20" height="20" /></li>
+				<li><img src="images/max.png" width="20" height="20" /></li>
+				<li><img src="images/close.png" width="20" height="20" /></li>
+			</ul>
+		</header>
+		<hr />
+		
+		<div class="menu">
+		
+		</div>
+	</div>
+
+	<div id="interactions" class="window" >
+		<header>
+			<h4 class="title">Interactions </h4>
+			<ul class="window_actions horizontal">
+				<li><img src="images/min.png" width="20" height="20" /></li>
+				<li><img src="images/max.png" width="20" height="20" /></li>
+				<li><img src="images/close.png" width="20" height="20" /></li>
+			</ul>
+		</header>
+		<hr />
+		
+		<div class="menu">
+		
+		</div>
 	</div>
 </div>
-
-
-<div class="draginteractions" ><b>Interactions </b>
-	<img src="images/close.png" width="20" height="20" align="right">
-	<img src="images/max.png" width="20" height="20" align="right">
-	<img src="images/min.png" width="20" height="20" align="right">
-	
-	<div class="menu">
-	
-	</div>
-</div>
-
-	
-
 
 </body>
 </html>

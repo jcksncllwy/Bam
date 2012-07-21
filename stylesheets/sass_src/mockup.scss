@@ -1,3 +1,9 @@
+@import "utilities";
+@import "fancy";
+
+$blur: 3px;
+$spread: 1px;
+
 *{
 	margin: 0;
 	padding: 0;
@@ -11,95 +17,95 @@
 	 background: #eee;
 }
 
+ul.horizontal > *{
+	float: left;
+	
+	@include after-clear-fix;
+}
+
 #menu_wrap{
 	position:fixed;
 	height: 50px;
 	width: 100%;
 	background-color: #444444;
 	z-index:1;
-	-webkit-box-shadow: 0 0 3px 1px #333;
-	-moz-box-shadow: 0 0 3px 1px #333;
-	box-shadow: 0 0 3px 1px #333;
+	@include box-shadow(0, 0, $blur, $spread, #333);
+
+	.logo{
+		float: left;
+		margin-right:10px;
+	}
+
+	.item_list > *{
+		float: left;
+		height: 50px;
+		margin-right: 20px;
+		margin-top: 12px;
+		font-size: 14pt;
+		text-align:center;
+		color: #bace16;
+	}
+
+	&>:last-child:after{
+		content: ".";
+	    visibility: hidden;
+	    display: block;
+	    height: 0;
+	    clear: both; 	
+	}
 }
 
-#menu_wrap .logo{
-	float: left;
-	margin-right:10px;
+#workspace{
+	position: relative;
+	width: 100%;
+	top: 50px;
+	overflow: auto;
 }
 
-#menu_wrap .item_list > *{
-	float: left;
-	height: 50px;
-	margin-right: 20px;
-	margin-top: 12px;
-	font-size: 14pt;
-	text-align:center;
-	color: #bace16;
-}
-
-#menu_wrap>:last-child:after{
-	content: ".";
-    visibility: hidden;
-    display: block;
-    height: 0;
-    clear: both; 	
-}
-
-#canvas{
+#page{
 	position: relative;
 	height: 800px;
-	width: 80%;
-	top: 160px;
-	margin: 0 auto;
+	width: 1000px;
+	margin: 50px auto;
 	background-color:white;
-	-webkit-box-shadow: 0 0 3px 1px #555;
-	-moz-box-shadow: 0 0 3px 1px #555;
-	box-shadow: 0 0 3px 1px #555;
+	@include box-shadow(0, 0, $blur, $spread, #555);
 }
 
-.draglibrary{
-	position:absolute;
+.window{
+	position: fixed;
+	padding:5px;
+	text-align:center;
+	color:#eee;
+	background-color:#444;
+	@include border-radius(2px);
+	@include glass-border(5px, 0, 0, $blur, $spread, rgba(0,0,0,0.3));
+
+	header{
+		@include after-clear-fix;
+	}
+
+	.title{
+		margin-left: 5px;
+		float: left;
+	}
+
+	.window_actions{
+		float: right;
+		
+	}
+}
+
+
+#library{
+	right:60px;
+	top:270px;
 	width:230px;
 	height:345px;
-	right:20px;
-	top:500px;
-	padding-top:5px;
-	margin:10px;
-	background-color:#444444;
-	border:.5px solid;
-	-moz-border-radius:5px;
-	-webkit-border-radius: 5px;
-	border-radius:5px;
-	text-align:center;
-	color:#eeeeee;
 }
 
-.menu{
-	left:5px;
-	right:5px;
-	top:30px;
-	background-color:white;
-	width:220px;
-	height:310px;
-	overflow-x:hidden;
-	overflow-y:scroll;
-	position:absolute;
-}
-
-
-
-.draginteractions{
-	width:230px;
-	height:345px;
-	background-color:#444444;
-	border:.5px solid;
-	border-radius:5px;
-	-moz-border-radius:5px;
-	text-align:center;
-	color:#eeeeee;
-	padding-top:5px;
-	margin:10px;
-	position:absolute;
+#interactions{
 	right:20px;
-	top:145px;
+	top:105px;
+	width:200px;
+	height:150px;
 }

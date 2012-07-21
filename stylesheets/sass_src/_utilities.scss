@@ -1,0 +1,39 @@
+@mixin box-shadow($left:0, $top:0, $blur:0, $spread:0, $color:black, $inset:false){
+ 	@if $inset{
+ 		-webkit-box-shadow: inset $left $top $blur $spread $color;
+		-moz-box-shadow: inset $left $top $blur $spread $color;
+		box-shadow: inset $left $top $blur $spread $color;
+	}
+	@else{
+		-webkit-box-shadow: $left $top $blur $spread $color;
+		-moz-box-shadow: $left $top $blur $spread $color;
+		box-shadow: $left $top $blur $spread $color;
+	}
+ }
+
+ @mixin border-radius($radius){
+ 	-moz-border-radius: $radius;
+  	-webkit-border-radius: $radius;
+  	border-radius: $radius;
+ }
+
+ @mixin background-clip($clip){
+ 	-webkit-background-clip: $clip;
+	-moz-background-clip: $clip;
+	background-clip: $clip;
+ }
+
+ @mixin after-clear-fix(){
+ 	&:after{
+		content: "";
+		visibility: hidden;
+		display: block;
+		height: 0;
+		clear: both; 
+	}
+ }
+
+ @mixin uncollapse{
+	overflow: hidden;
+	width: 100%;
+ }
