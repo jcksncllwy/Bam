@@ -9,6 +9,7 @@ $spread: 1px;
 	padding: 0;
 	z-index: 0;
 	list-style: none;
+	border-spacing: 0;
  }
 
  body{
@@ -17,17 +18,23 @@ $spread: 1px;
 	 background: #eee;
 }
 
-ul.horizontal > *{
-	float: left;
-	
+img{
+	max-width: 100%;
+}
+
+ul.horizontal {
 	@include after-clear-fix;
+
+	& > *{
+		float: left;
+	}
 }
 
 #menu_wrap{
 	position:fixed;
 	height: 50px;
 	width: 100%;
-	background-color: #444444;
+	background-color: #444;
 	z-index:1;
 	@include box-shadow(0, 0, $blur, $spread, #333);
 
@@ -71,17 +78,18 @@ ul.horizontal > *{
 	@include box-shadow(0, 0, $blur, $spread, #555);
 }
 
-.window{
+div.window{
 	position: fixed;
 	padding:5px;
 	text-align:center;
-	color:#eee;
-	background-color:#444;
+	color:#444;
+	background-color: rgba(186,206,22,0.5);
 	@include border-radius(2px);
-	@include glass-border(5px, 0, 0, $blur, $spread, rgba(0,0,0,0.3));
+	@include box-shadow(0,0,$blur,$spread, #555);
 
-	header{
+	header {
 		@include after-clear-fix;
+		
 	}
 
 	.title{
@@ -93,19 +101,55 @@ ul.horizontal > *{
 		float: right;
 		
 	}
+
+	.content{
+		position: absolute;
+		top: 30px;
+		bottom: 15px;
+		right: 0;
+		left: 0;
+		background: #444;
+		overflow: auto;
+
+		.element_list{
+			padding-top: 5px;
+			color: #eee;
+			font-size: 0.8em;
+			text-align: center;
+			li {
+				display: inline-block;
+				width: 100px;
+				margin: 5px;
+				text-align: center;
+				@include box-shadow(0,0,3px,0,#eee);
+
+				* {
+					max-width: 100%;
+				}
+
+				.element {
+					position: relative;
+					top: 20px;
+					margin: 0 auto;
+					height: 60px;
+					text-align: center;
+				}
+
+			}
+		}
+	}
 }
 
-
 #library{
-	right:60px;
-	top:270px;
+	right:20px;
+	top:250px;
 	width:230px;
 	height:345px;
 }
 
 #interactions{
 	right:20px;
-	top:105px;
-	width:200px;
+	top:75px;
+	width:230px;
 	height:150px;
 }
