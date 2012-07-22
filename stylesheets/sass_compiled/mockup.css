@@ -119,6 +119,40 @@ div.window {
           margin: 0 auto;
           height: 60px;
           text-align: center; }
+          div.window .content .element_list li .element.text_input input {
+            width: 70px; }
+          div.window .content .element_list li .element.button button {
+            width: 70px; }
+          div.window .content .element_list li .element.dropdown table {
+            margin-left: 12px; }
+          div.window .content .element_list li .element.dropdown tr {
+            visibility: hidden; }
+            div.window .content .element_list li .element.dropdown tr:first-of-type {
+              visibility: visible; }
+              div.window .content .element_list li .element.dropdown tr:first-of-type td {
+                border-top: 1px solid black;
+                border-bottom: 1px solid black; }
+              div.window .content .element_list li .element.dropdown tr:first-of-type td:first-of-type {
+                border-left: 1px solid black; }
+              div.window .content .element_list li .element.dropdown tr:first-of-type td:last-of-type {
+                border-right: 1px solid black; }
+              div.window .content .element_list li .element.dropdown tr:first-of-type td:last-of-type {
+                height: 20px;
+                width: 20px;
+                background: #eee;
+                padding-left: 10px; }
+                div.window .content .element_list li .element.dropdown tr:first-of-type td:last-of-type:after {
+                  content: "";
+                  display: block;
+                  width: 0;
+                  height: 0;
+                  border-left: 5px solid transparent;
+                  border-right: 5px solid transparent;
+                  border-top: 10px solid #bace16; }
+          div.window .content .element_list li .element.image img {
+            position: relative;
+            width: 50%;
+            bottom: 10px; }
 
 #library {
   right: 20px;
