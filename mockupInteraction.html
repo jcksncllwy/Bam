@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Untitled Document</title>
+	<title>Wireframe Mockup</title>
 	<link rel="icon" href="http://i1244.photobucket.com/albums/gg569/jpf56z/blogo.png" type="image/x-icon">
 	<link rel="shortcut icon" href="http://i1244.photobucket.com/albums/gg569/jpf56z/blogo.png" type="image/x-icon">
 	
@@ -14,7 +14,7 @@
 
 <div id="menu_wrap">
 	<header class="logo">
-		<a href="proposal.html"><img src="images/logo1.png" height="50" /></a>
+		<img src="images/logo1.png" height="50" />
 	</header>
 	<ul class="item_list">
 		<li> File </li>
@@ -28,7 +28,13 @@
 </div>
 
 <div id="workspace">
-	<div id="page"><div class="element button"></div>
+	<div id="page">
+
+		<div id="interact_button">
+			<button name="button1" value="click">  CLICK HERE  </button>
+		</div>
+
+	</div>
 
 	<div id="library" class="window" >
 		<header>
@@ -62,33 +68,41 @@
 				</li>
 				<li>
 					<div class="element button">
-						<button>Button</button>
+						<input type="button" value=" Button " />
 					</div>
 					<span class="element_name">Button</span>
 				</li>
 				<li>
 					<div class="element dropdown">
-						<table>
-							<tr>
-								<td>
-									Menu
-								</td>
-								<td>
-								</td>
-							</tr>
-							<tr>
-								<td>option 1</td>
-							</tr>
-						</table>
+						<select>
+							<option> Item 1 </option>
+							<option> Item 2 </option>
+							<option> Item 3 </option>
+						</select>
 					</div>
 					<span class="element_name">Dropdown</span>
 				</li>
 				<li>
 					<div class="element image">
-						<img src="images/fox.png" />
+						
 					</div>
 					<span class="element_name">Image</span>
 				</li>
+				<!--<li>
+					<div class="element checkbox">
+						<input type="checkbox" value="First"/> Item 1<br/>
+						<input type="checkbox" value="Second" checked/> Item 2<br/>
+					</div>
+					<span class="element_name">Checkbox</span>
+				</li>
+				<li>
+					<div class="element radiobutton">
+						<input type="radio" value="button1" checked/> Item 1<br/>
+						<input type="radio" value="button2"/> Item 2<br/>
+					</div>
+					<span class="element_name">Radio Button</span>
+				</li>-->
+
 			</ul>
 		</div>
 	</div>
@@ -105,8 +119,27 @@
 		
 		<div class="content">
 		
+
+			<ul id="interact_menu">
+				<li><b>Set Condition: button1</b>
+					<ul>
+						<li>IF:  clicked</li>
+					</ul>
+				</li>
+				<hr>
+				<li id="mock_action"><b>Set Action:  button1</b>
+					<ul>
+						<li>set color = blue </li>
+						<li>popup window to:  www.google.com
+					</ul>
+				</li>
+			</ul>
+
 		</div>
 	</div>
+
+
+
 
 </div>
 

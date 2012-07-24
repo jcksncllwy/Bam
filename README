@@ -6,4 +6,13 @@ Bam! is an in-browser prototyping tool that generates basic markup and styles as
 
 
 Root HTML Document:
-proposal.html
+
+mockup.html 
+	- Displays and empty canvas, demonstrates what a user would see when they load up 	the application.
+
+mockupInteraction.html  
+	- Demonstrates an example of what the interaction panel would display if the user 	used an element that has pre configured interactive conditions. 
+
+
+Hotkeys.html
+	- Displays a list of common short cut keys, that users can use, for both PC and 	MAC.

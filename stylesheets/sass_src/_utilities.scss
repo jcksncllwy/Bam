@@ -38,3 +38,16 @@
 	overflow: hidden;
 	width: 100%;
  }
+
+ @mixin tr-border($width, $style, $color){
+ 	td{
+ 		border-top: $width $style $color;
+ 		border-bottom: $width $style $color;
+ 	}
+ 	td:first-of-type{
+ 		border-left: $width $style $color;
+ 	}
+ 	td:last-of-type{
+ 		border-right: $width $style $color;
+ 	}
+ }

@@ -1,5 +1,6 @@
 @import "utilities";
 @import "fancy";
+@import "shapes";
 
 $blur: 3px;
 $spread: 1px;
@@ -133,8 +134,47 @@ div.window{
 					margin     : 0 auto;
 					height     : 60px;
 					text-align : center;
-				}
 
+					&.text_input{
+						input{
+							width: 70px;
+						}
+					}
+
+					&.button{
+						button{
+							width: 70px;
+						}
+					}
+
+					&.dropdown{
+						table{
+							margin-left: 12px;
+						}
+						tr{
+							visibility: hidden;
+							&:first-of-type{
+								visibility: visible;
+								@include tr-border(1px, solid, black);
+								td:last-of-type{
+									height: 20px;
+									width: 20px;
+									background: #eee;
+									padding-left: 10px;
+									@include triangle-down(10px, #bace16);
+								}
+							}
+						}
+					}
+
+					&.image{
+						img{
+							position: relative;
+							width: 50%;
+							bottom: 10px;
+						}
+					}
+				}
 			}
 		}
 	}

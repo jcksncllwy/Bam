@@ -1,10 +1,11 @@
+function workspace_height() {
+	var menu = document.querySelector('#menu_wrap');
+    var height = window.innerHeight-menu.offsetHeight;
+    var workspace = document.querySelector('#workspace');
+    workspace.style.height=height+"px";
+}
+
 window.onload = function(){
-
-var puff = Puffin.create();
-puff.move(100,100);
-puff.resize(200,300);
-puff.setContent(document.getElementById('puffin_window'));
-puff.show();
-console.log(puff);
-
+	workspace_height();
+	window.onresize = workspace_height;
 }
