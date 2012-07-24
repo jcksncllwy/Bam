@@ -106,7 +106,7 @@ div.window {
       div.window .content .element_list li {
         display: inline-block;
         width: 100px;
-        margin: 5px;
+        padding: 5px;
         text-align: center;
         -webkit-box-shadow: 0 0 3px 0 #eeeeee;
         -moz-box-shadow: 0 0 3px 0 #eeeeee;

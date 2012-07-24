@@ -5,11 +5,11 @@ $blur: 3px;
 $spread: 1px;
 
 *{
-	margin: 0;
-	padding: 0;
-	z-index: 0;
-	list-style: none;
-	border-spacing: 0;
+	margin         : 0;
+	padding        : 0;
+	z-index        : 0;
+	list-style     : none;
+	border-spacing : 0;
  }
 
  body{
@@ -31,59 +31,59 @@ ul.horizontal {
 }
 
 #menu_wrap{
-	position:fixed;
-	height: 50px;
-	width: 100%;
-	background-color: #444;
-	z-index:1;
+	position         :fixed;
+	height           : 50px;
+	width            : 100%;
+	background-color : #444;
+	z-index          :1;
 	@include box-shadow(0, 0, $blur, $spread, #333);
 
 	.logo{
-		float: left;
-		margin-right:10px;
+		float        :left;
+		margin-right :10px;
 	}
 
 	.item_list > *{
-		float: left;
-		height: 50px;
-		margin-right: 20px;
-		margin-top: 12px;
-		font-size: 14pt;
-		text-align:center;
-		color: #bace16;
+		float        : left;
+		height       : 50px;
+		margin-right : 20px;
+		margin-top   : 12px;
+		font-size    : 14pt;
+		text-align   :center;
+		color        : #bace16;
 	}
 
 	&>:last-child:after{
-		content: ".";
-	    visibility: hidden;
-	    display: block;
-	    height: 0;
-	    clear: both; 	
+		content    : ".";
+		visibility : hidden;
+		display    : block;
+		height     : 0;
+		clear      : both; 	
 	}
 }
 
 #workspace{
-	position: relative;
-	width: 100%;
-	top: 50px;
-	overflow: auto;
+	position : relative;
+	width    : 100%;
+	top      : 50px;
+	overflow : auto;
 }
 
 #page{
-	position: relative;
-	height: 800px;
-	width: 1000px;
-	margin: 50px auto;
-	background-color:white;
+	position         : relative;
+	height           : 800px;
+	width            : 1000px;
+	margin           : 50px auto;
+	background-color :white;
 	@include box-shadow(0, 0, $blur, $spread, #555);
 }
 
 div.window{
-	position: fixed;
-	padding:5px;
-	text-align:center;
-	color:#444;
-	background-color: rgba(186,206,22,0.5);
+	position         : fixed;
+	padding          :5px;
+	text-align       :center;
+	color            :#444;
+	background-color : rgba(186,206,22,0.5);
 	@include border-radius(2px);
 	@include box-shadow(0,0,$blur,$spread, #555);
 
@@ -93,8 +93,8 @@ div.window{
 	}
 
 	.title{
-		margin-left: 5px;
-		float: left;
+		margin-left : 5px;
+		float       : left;
 	}
 
 	.window_actions{
@@ -103,36 +103,36 @@ div.window{
 	}
 
 	.content{
-		position: absolute;
-		top: 30px;
-		bottom: 15px;
-		right: 0;
-		left: 0;
-		background: #444;
-		overflow: auto;
+		position   : absolute;
+		top        : 30px;
+		bottom     : 15px;
+		right      : 0;
+		left       : 0;
+		background : #444;
+		overflow   : auto;
 
 		.element_list{
-			padding-top: 5px;
-			color: #eee;
-			font-size: 0.8em;
-			text-align: center;
+			padding-top : 5px;
+			color       : #eee;
+			font-size   : 0.8em;
+			text-align  : center;
 			li {
-				display: inline-block;
-				width: 100px;
-				margin: 5px;
-				text-align: center;
+				display    : inline-block;
+				width      : 100px;
+				padding    : 5px;
+				text-align : center;
 				@include box-shadow(0,0,3px,0,#eee);
 
 				* {
-					max-width: 100%;
+					max-width : 100%;
 				}
 
 				.element {
-					position: relative;
-					top: 20px;
-					margin: 0 auto;
-					height: 60px;
-					text-align: center;
+					position   : relative;
+					top        : 20px;
+					margin     : 0 auto;
+					height     : 60px;
+					text-align : center;
 				}
 
 			}
@@ -141,15 +141,15 @@ div.window{
 }
 
 #library{
-	right:20px;
-	top:250px;
-	width:230px;
-	height:345px;
+	right  :20px;
+	top    :250px;
+	width  :230px;
+	height :345px;
 }
 
 #interactions{
-	right:20px;
-	top:75px;
-	width:230px;
-	height:150px;
+	right  :20px;
+	top    :75px;
+	width  :230px;
+	height :150px;
 }
